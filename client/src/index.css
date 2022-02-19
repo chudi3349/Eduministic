@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,4 +7,16 @@
 * {
   padding: 0;
   margin: 0;
+}
+
+body {
+  background-color: #017371;
+}
+
+input:focus-within ~ label {
+  @apply text-blue-500;
+}
+.outline input:focus-within ~ label,
+.outline input:not(:placeholder-shown) ~ label {
+  @apply transform scale-75 -translate-y-5 z-0 ml-1 px-1 py-0;
 }
