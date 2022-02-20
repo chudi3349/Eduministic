@@ -2,20 +2,16 @@ import hash from "hash-sdk";
 
 export default {
 
-    /**
-* nitializes an account for interacting with below functions
-*/
     init: async () => {
         try {
-            // Setting it default to software it talks to sdk directly
             await hash.setProvider("software");
             const accountData = {
-                accountId: ""/*<accountId(0.0.1234)>*/,
-                network: ""/*<mainnet | testnet>*/,
+                accountId: "",
+                network: "",
                 keys: {
-                    privateKey: ""/*<aplphanumeric user privatekey>*/
+                    privateKey: ""
                 },
-                mnemonics: ""/*<phrase>*/
+                mnemonics: ""
             };
             await hash.setAccount(accountData);
         } catch (e) {

@@ -42,19 +42,19 @@ export default function Navbar() {
                                     >
 
                                         <Link to="/">
-                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Home</span>
+                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center hover:bg-secondary cursor-pointer text-white">Home</span>
                                         </Link>
 
                                         <Link to="/explore">
-                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Explore</span>
+                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center hover:bg-secondary cursor-pointer text-white">Explore</span>
                                         </Link>
 
-                                        <Link to="/chat">
-                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Chat</span>
-                                        </Link>
+                                        {/* <Link to="/chat">
+                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center hover:bg-secondary cursor-pointer text-white">Chat</span>
+                                        </Link> */}
 
                                         <Link to="/profile">
-                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Profile</span>
+                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center hover:bg-secondary cursor-pointer text-white">Profile</span>
                                         </Link>
 
                                         <button className='bg-indigo-600 text-white py-2 px-8 rounded-md ml-2' onClick={() => auth.signOut()}>
@@ -75,19 +75,19 @@ export default function Navbar() {
                     <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full text-xl lg:items-center items-start flex flex-col lg:h-auto space-x-2 mr-12" >
 
                         <Link to="/">
-                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Home</span>
+                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center hover:bg-secondary cursor-pointer text-white">Home</span>
                         </Link>
 
                         <Link to="/explore">
-                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Explore</span>
+                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center hover:bg-secondary cursor-pointer text-white">Explore</span>
                         </Link>
 
-                        <Link to="/chat">
-                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Chat</span>
-                        </Link>
+                        {/* <Link to="/chat">
+                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center hover:bg-secondary cursor-pointer text-white">Chat</span>
+                        </Link> */}
 
                         <Link to="/profile">
-                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Profile</span>
+                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center hover:bg-secondary cursor-pointer text-white">Profile</span>
                         </Link>
 
                         <button className='bg-indigo-600 text-white py-2 px-8 rounded-md' onClick={() => auth.signOut()}>
