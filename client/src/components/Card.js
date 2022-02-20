@@ -4,7 +4,7 @@ import Home from "../assets/home.svg"
 
 export default function Card() {
     return (
-      <div>
+      <div className="p-6">
       <div className="lg:flex">
       <div className=" mx-px max-w-lg rounded overflow-hidden shadow-lg mt-8">
         <h1 className="ml-200px text-2xl font-bold bg-right-top">
@@ -16,13 +16,13 @@ export default function Card() {
           Minim quodsi dolorum quo ne, quem veniam meliore at sed. 
         </p>
       </div>
-        <div className="object-right">
+        <div className="object-right pl-10 sm:pt-4">
           <img src={Home}>
           </img>
         </div>
 
       </div>
-      <div className="lg:row object-center">
+      <div className="lg:row object-center pt-6">
           <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>Get Started</button>
       </div>
       </div>
