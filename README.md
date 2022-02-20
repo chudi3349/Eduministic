@@ -6,20 +6,21 @@
 
 ## ⚙️ How we built it
 
-React Js: For frontend
-Hedera: For smart contract and user information
-Firebase: For user authentication
-Firestore: For Database
+- React Js: For frontend
+- Hedera: For smart contract
+- Firebase: For user authentication
+- Three.js: For 3D rendering
+- echo3D: For Augmented Reality
 
 ## 🔐 Best Blockchain Project Using Hedera
 
-We are using Hedera to show your Account Info, Crypto Transfer, Contract Call, Contract Deploy. Hedera is a decentralized public network that utilizes the Hashgraph consensus algorithm to overcome the traditional limitations of blockchain and allow one to create next era of fast, fair, and secure applications.
+We are using Hedera to show your Account Info, Crypto Transfer, Contract Call, Contract Deploy, and chat. Hedera is a decentralized public network that utilizes the Hashgraph consensus algorithm to overcome the traditional limitations of blockchain and allow one to create next era of fast, fair, and secure applications.
 
 <!-- If we are able to implement it -->
 
 ## Best Use of DeSo
 
-For user authentication
+For implementing the chatroom, we are using DeSo. DeSo blockchain is built with custom indexing and storage optimizations which make it 10,000X cheaper to store social content on-chain!
 
 ## ⛅ Best Use of Google Cloud
 
@@ -27,31 +28,43 @@ We are using Firebase for database and authentication. Cloud Firestore is a flex
 
 ## ⚒ Most Creative Use of GitHub
 
+- We are using GitHub for collaboration on code.
+- Github Pages for Deploying our web application.
+- Enabling the CI/CD for our code.
+
 ## 🍻 Dream Big and Create More Cheers with AB InBev
+
+- We dream to make this web app available to all people who have limited access and want to learn more and make their dream come true to learn to learn and grow more.
 
 ## 🌐 Best Domain Name from Domain.com
 
-- Any domain with a .tech extension, for eg. eduministic.tech
+- Any domain with a .tech, .space, or .online extension, for eg. eduministic.tech
 
 ## 🧠 Challenges we ran into
 
-As all the teammates were from different time zones, it was a bit difficult to collaborate, but we managed to get the project done.
-Some of us did not have any experience with Firebase or back end. We collaborated and helped each other get up to speed. We managed to get most features working.
-Some features still did not work, such as the journal add and edit.
+- As all the teammates were from different time zones, it was a bit difficult to collaborate, but we managed to get the project done.
+- Some of us did not have any experience with Firebase or back end. We collaborated and helped each other get up to speed. We managed to get most features working.
+- We did not have any experience with Hedera. We were able to get most of the features working.
+- Delploying the project was a bit tricky. We had to use a lot of time to get the project up and running.
 
 ## 🏅 Accomplishments that we're proud of
 
-It was the first time working with Coil but we were able to build a web monetization feature.
-Completing the project within the given time frame.
-Implemented most of the features we wanted
+- Completing the project within the given time frame.
+- Implemented most of the features we wanted
+- Completed the project with the best use of Hedera, Firebase, and GitHub.
 
 ## 📖 What we learned
 
 - We learned how to use the best tools and frameworks to make the project work.
 - How to implement Firebase authentication and Firestore database.
 - How to use Hedera for the smart contract.
+- Deployment of the project.
 
 ## 🚀 What's next for Eduministic
+
+- Adding more features to the project.
+- Adding more topics to the project.
+- Making it completely decentralized.
 
 <!-- Temp -->
 
