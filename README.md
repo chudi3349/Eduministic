@@ -1,6 +1,7 @@
 # Eduministic
 
 ## 💡 Inspiration
+As young children, we watched our mothers mix and bake cookies and cakes but little did we realize she was a chemist. We enjoyed many delicious meals with different flavors but gave no consideration to the complex chemical laboratory we call the human body, digesting this food and building them into tissue and other chemical compounds for the body. We want to build a web app that will make all appreciate this marvel of the human body.
 
 ## 💻 What it does
 
